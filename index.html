@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SarkariPortal | Modern Career & Education Portal (Redesigned)</title>
+  <meta name="description" content="Redesigned premium portal for checking the latest government jobs, admit cards, exam results, and admissions with structured details and real-time smart search.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+
+  <!-- Premium ambient background elements -->
+  <div class="bg-blob bg-blob-1"></div>
+  <div class="bg-blob bg-blob-2"></div>
+  <div class="bg-blob bg-blob-3"></div>
+
+  <!-- App Header -->
+  <header class="glass">
+    <a href="#" class="logo-container">
+      <svg class="logo-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="url(#logoGrad)" />
+        <path d="M2 17L12 22L22 17" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M2 12L12 17L22 12" stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <defs>
+          <linearGradient id="logoGrad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#6366F1" />
+            <stop offset="50%" stop-color="#A855F7" />
+            <stop offset="100%" stop-color="#06B6D4" />
+          </linearGradient>
+        </defs>
+      </svg>
+      <span class="logo-text">SarkariPortal</span>
+    </a>
+
+    <!-- Dynamic Search bar -->
+    <div class="search-wrapper">
+      <svg class="search-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input type="text" id="search-input" class="search-input" placeholder="Search 150+ jobs, admit cards, and results instantly...">
+    </div>
+
+    <!-- Right-aligned Header controls -->
+    <div class="header-right">
+      <!-- Watchlist Indicator -->
+      <a href="#" class="btn-circle watchlist-nav-icon" id="watchlist-nav-btn" onclick="document.getElementById('watchlist-link').click();" title="View Watchlist">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:20px;height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499c.198-.396.772-.396.97 0l2.182 4.416 4.87.707c.44.064.617.61.299.92l-3.522 3.433.83 4.83a.562.562 0 01-.814.591L12 18.233l-4.354 2.29a.562.562 0 01-.814-.59L7.67 15.03l-3.522-3.434a.562.562 0 01.299-.92l4.87-.707 2.18-4.417z" />
+        </svg>
+        <span class="watchlist-badge" id="watchlist-count" style="display: none;">0</span>
+      </a>
+
+
+    </div>
+  </header>
+
+  <!-- Trending Announcements Marquee Ticker -->
+  <div class="ticker-container glass">
+    <div class="ticker-label">
+      <span>🔥 LATEST UPDATE</span>
+    </div>
+    <div class="ticker-marquee" id="ticker-marquee">
+      <!-- Loaded dynamically via data.js -->
+    </div>
+  </div>
+
+  <!-- Primary Layout grid -->
+  <div class="main-layout">
+    
+    <!-- Sidebar column -->
+    <aside class="sidebar">
+      <div class="nav-card glass">
+        <h4 class="nav-title">Categories</h4>
+        
+        <a href="#" class="nav-link active" data-category="all">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+          </svg>
+          <span>All Announcements</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="latest-job">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 .414-.336.75-.75.75H4.5a.75.75 0 01-.75-.75v-4.25m16.5 0a3 3 0 00-3-3H6.75a3 3 0 00-3 3m16.5 0V9a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 9v5.15M12 9v2.25m-3-2.25h6m-3 0h.008v.008H12V9z"/>
+          </svg>
+          <span>Latest Jobs</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="result">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
+          </svg>
+          <span>Exam Results</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="admit-card">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm-3.75 5.438c0-.987.813-1.787 1.815-1.787h.12c1.002 0 1.815.8 1.815 1.787V15H6.75v-.438z"/>
+          </svg>
+          <span>Admit Cards</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="answer-key">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z"/>
+          </svg>
+          <span>Answer Keys</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="syllabus">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-16.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-16.25v14.25"/>
+          </svg>
+          <span>Exam Syllabus</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="admission">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.62 48.62 0 0112 20.904a48.62 48.62 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/>
+          </svg>
+          <span>Admissions</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <a href="#" class="nav-link" data-category="important">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.685-.196-1.353-.617-1.885-1.15a4.5 4.5 0 00-6.136 0 4.5 4.5 0 000 6.136c1.64 1.64 4.5 1.64 6.136 0 1.64-1.64 1.64-4.5 0-6.136zM14.34 9.84c.685.196 1.353.617 1.885 1.15a4.5 4.5 0 006.136 0 4.5 4.5 0 000-6.136c-1.64-1.64-4.5-1.64-6.136 0-1.64 1.64-1.64 4.5 0 6.136z"/>
+          </svg>
+          <span>Important News</span>
+          <span class="nav-count">0</span>
+        </a>
+
+        <div style="border-top:1px solid var(--border-glass); margin: 0.5rem 0;"></div>
+
+        <a href="#" class="nav-link" data-category="watchlist" id="watchlist-link">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0111.186 0z"/>
+          </svg>
+          <span style="font-weight:700;">My Watchlist</span>
+          <span class="nav-count" style="background:var(--accent-purple); color:white;">0</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content Panel -->
+    <main>
+      <!-- Hero/Header Title Area -->
+      <div class="hero-section" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 2.25rem; font-weight: 800; background: var(--gradient-main); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 0.5rem;">
+          India's Premier Job & Recruitment Portal
+        </h2>
+        <p style="color: var(--text-secondary); font-size: 1rem;">
+          Redesigned and structured under Trademark Intellectual Property. Access verified government job notifications, downloads, admit cards, and results.
+        </p>
+      </div>
+
+      <!-- Quick Metrics row -->
+      <section class="stats-row">
+        <div class="stat-card glass">
+          <div class="stat-icon-wrapper">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 .414-.336.75-.75.75H4.5a.75.75 0 01-.75-.75v-4.25M3.75 14.15a3 3 0 013-3h10.5a3 3 0 013 3M3.75 14.15V9a2.25 2.25 0 012.25-2.25h12A2.25 2.25 0 0120.25 9v5.15"/>
+            </svg>
+          </div>
+          <div class="stat-details">
+            <h3 id="stat-active-jobs">0</h3>
+            <p>Active Job Recruitments</p>
+          </div>
+        </div>
+
+        <div class="stat-card glass">
+          <div class="stat-icon-wrapper success">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/>
+            </svg>
+          </div>
+          <div class="stat-details">
+            <h3 id="stat-results">0</h3>
+            <p>Exam Results Declared</p>
+          </div>
+        </div>
+
+        <div class="stat-card glass">
+          <div class="stat-icon-wrapper cyan">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm-3.75 5.438c0-.987.813-1.787 1.815-1.787h.12c1.002 0 1.815.8 1.815 1.787V15H6.75v-.438z"/>
+            </svg>
+          </div>
+          <div class="stat-details">
+            <h3 id="stat-admit-cards">0</h3>
+            <p>Active Admit Cards</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Listing filters & search metadata options -->
+      <section class="filter-bar">
+        <div class="pills-container">
+          <button class="pill-btn active" data-filter="all">All Regions</button>
+          <button class="pill-btn" data-filter="central">Central Gov</button>
+          <button class="pill-btn" data-filter="state">State Gov</button>
+        </div>
+        
+        <div>
+          <select id="sort-select" class="sort-select">
+            <option value="newest">Sort by: Date Added</option>
+            <option value="deadline">Sort by: Approaching Deadline</option>
+            <option value="alphabetical">Sort by: Alphabetical (A-Z)</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Grid for displaying list of dynamic cards -->
+      <section class="listings-grid" id="listings-grid">
+        <!-- Rendered dynamically by app.js -->
+      </section>
+    </main>
+
+  </div>
+
+  <!-- Slide-out Drawer Panel -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="drawer glass-heavy" id="detail-drawer">
+    <div class="drawer-handle"></div>
+    <div class="drawer-header">
+      <div style="display: flex; flex-direction: column; gap: 4px;">
+        <h4 id="drawer-org" style="font-size: 0.8rem; text-transform: uppercase; color: var(--accent-indigo); letter-spacing: 1px;"></h4>
+        <span id="drawer-level-badge" class="badge"></span>
+      </div>
+      <button class="drawer-close" id="drawer-close" title="Close Panel">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:20px;height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    
+    <div class="drawer-body">
+      <h3 class="drawer-title" id="drawer-title"></h3>
+      
+      <!-- Key Meta Grid -->
+      <div class="drawer-meta-grid">
+        <div class="drawer-meta-card">
+          <span class="drawer-meta-label">Total Vacancies</span>
+          <span class="drawer-meta-val" id="drawer-vacancy"></span>
+        </div>
+        <div class="drawer-meta-card" style="border-color: rgba(239, 68, 68, 0.15);">
+          <span class="drawer-meta-label" style="color:var(--danger);">Last Date to Apply</span>
+          <span class="drawer-meta-val" id="drawer-last-date" style="color:var(--danger); font-weight:700;"></span>
+        </div>
+      </div>
+
+      <!-- Dates list section -->
+      <div class="drawer-section">
+        <span class="drawer-section-title">Timeline Schedule</span>
+        <div class="fee-list">
+          <div class="fee-item">
+            <span class="drawer-meta-label">Application Start</span>
+            <span class="detail-val" id="drawer-apply-start"></span>
+          </div>
+          <div class="fee-item">
+            <span class="drawer-meta-label">Exam Scheduled</span>
+            <span class="detail-val" id="drawer-exam-date"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fees list section -->
+      <div class="drawer-section">
+        <span class="drawer-section-title">Application Fees</span>
+        <div class="fee-list">
+          <div class="fee-item">
+            <span class="drawer-meta-label">General / OBC / EWS</span>
+            <span class="detail-val" id="drawer-fee-gen"></span>
+          </div>
+          <div class="fee-item">
+            <span class="drawer-meta-label">SC / ST / PH</span>
+            <span class="detail-val" id="drawer-fee-sc"></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Age limits section -->
+      <div class="drawer-section">
+        <span class="drawer-section-title">Age Limit Details</span>
+        <div class="drawer-meta-card">
+          <p class="drawer-text" id="drawer-age" style="font-weight: 600; color: var(--text-primary);"></p>
+        </div>
+      </div>
+
+      <!-- Education requirements section -->
+      <div class="drawer-section">
+        <span class="drawer-section-title">Educational Eligibility</span>
+        <p class="drawer-text" id="drawer-eligibility"></p>
+      </div>
+
+      <!-- Tags Section -->
+      <div class="drawer-section">
+        <span class="drawer-section-title">Tags & Classifications</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;" id="drawer-tags"></div>
+      </div>
+    </div>
+
+    <!-- Sticky Drawer actions -->
+    <div class="drawer-actions">
+      <button class="btn-secondary" id="btn-drawer-bookmark">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:20px;height:20px;margin-right:8px;">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+        </svg>
+        <span>Add Watchlist</span>
+      </button>
+      <button class="btn-secondary" id="btn-drawer-copy" title="Copy Link to Clipboard">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:20px;height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+        </svg>
+      </button>
+      <a href="#" class="btn-primary" id="btn-apply-online" target="_blank">Apply Online</a>
+      <a href="#" class="btn-secondary" id="btn-download-notification" target="_blank" title="Official Document" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:20px;height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Modern Page Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <a href="#" class="footer-logo">
+          <span style="font-weight: 800; background: var(--gradient-main); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">SarkariPortal</span>
+        </a>
+        <p class="footer-desc">
+          SarkariPortal (Redesigned) is India's leading private job information directory. Registered trademark under Intellectual Property of India. Established to simplify government exam alerts, results, admit cards, and application forms with direct verified link tracking.
+        </p>
+        <p class="footer-desc" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.75rem; line-height: 1.4; border-left: 2px solid var(--accent-indigo); padding-left: 0.5rem;">
+          <strong>Disclaimer:</strong> SarkariPortal is an independent private informational resource. It is not affiliated with, authorized by, or endorsed by the Government of India or any state government/recruitment agency. All logos and trademarks are the property of their respective owners. Candidates are advised to verify details with official government portals before applying.
+        </p>
+        <p style="font-size: 0.75rem; color: var(--text-muted);">
+          Trademarks: Application Word Mark No. 4531613 & Device Mark (Logo) No. 5569166.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul class="footer-links">
+          <li><a href="#" onclick="document.querySelector('[data-category=latest-job]').click();">Latest Jobs</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-category=result]').click();">Exam Results</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-category=admit-card]').click();">Admit Cards</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-category=admission]').click();">Admissions Info</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-category=syllabus]').click();">Exam Syllabus</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal & Help</h4>
+        <ul class="footer-links">
+          <li><a href="#">Contact Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Trademark Guidelines</a></li>
+          <li><a href="#">Verification FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Join Social Presence</h4>
+        <p class="footer-desc" style="margin-bottom: 0.75rem;">Receive real-time notifications on official communities with over 6.3M+ members:</p>
+        <div class="social-grid">
+          <!-- WhatsApp -->
+          <a href="https://whatsapp.com/channel/0029Va5IElwBlHpVBd6i5a18" class="social-icon-btn" title="WhatsApp Channel" target="_blank">
+            <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.46h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </a>
+          <!-- Telegram -->
+          <a href="https://t.me/SarkariResult2012" class="social-icon-btn" title="Telegram Channel" target="_blank">
+            <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.58.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.24-5.54 3.65-.52.36-1 .53-1.42.52-.47-.01-1.37-.27-2.03-.49-.82-.27-1.47-.42-1.42-.88.03-.24.36-.49.99-.74 3.89-1.69 6.48-2.8 7.78-3.33 3.69-1.52 4.46-1.78 4.96-1.79.11 0 .36.03.52.16.13.11.17.26.19.37.02.09.02.24.01.32z"/>
+            </svg>
+          </a>
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/sarkariresult.comofficial/" class="social-icon-btn" title="Instagram" target="_blank">
+            <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+            </svg>
+          </a>
+          <!-- YouTube -->
+          <a href="https://www.youtube.com/c/SarkariResultOfficial" class="social-icon-btn" title="YouTube Channel" target="_blank">
+            <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.498 6.163a3.003 3.003 0 00-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 00-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 002.11 2.11c1.871.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 002.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 SarkariPortal Redesign. Pair-programmed with Antigravity AI. All rights reserved.</span>
+      <div style="display: flex; gap: 1.5rem;">
+        <a href="#" style="color: var(--text-muted); text-decoration: none; transition: var(--transition);">Disclaimer</a>
+        <a href="#" style="color: var(--text-muted); text-decoration: none; transition: var(--transition);">Security Audit</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Premium PWA Install Banner -->
+  <div id="install-banner" class="install-banner" style="display: none;">
+    <div class="install-banner-content">
+      <img src="icon-192.png" alt="App Icon" class="install-app-icon">
+      <div class="install-banner-text">
+        <h4>Install SarkariPortal App</h4>
+        <p>Get instant updates and fullscreen mobile access!</p>
+      </div>
+    </div>
+    <div class="install-banner-actions">
+      <button id="install-close-btn" class="btn-text">Later</button>
+      <button id="install-btn" class="btn-primary-small">Install</button>
+    </div>
+  </div>
+
+  <!-- Include Core Data & Script files -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
