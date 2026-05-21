@@ -344,6 +344,10 @@ header {
   display: inline-flex;
   animation: marquee 30s linear infinite;
   padding-left: 2rem;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .ticker-marquee:hover {
@@ -357,6 +361,7 @@ header {
   color: var(--text-primary);
   text-decoration: none;
   font-weight: 500;
+  flex-shrink: 0;
 }
 
 .ticker-item:hover {

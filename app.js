@@ -163,8 +163,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const trending = PORTAL_DATA.filter(item => item.category === "latest-job" || item.category === "admit-card").slice(0, 6);
     let html = "";
     
-    // Duplicate twice for seamless loop scrolling
-    for (let i = 0; i < 2; i++) {
+    // Duplicate 4 times for seamless loop scrolling on all screens (including ultrawide)
+    for (let i = 0; i < 4; i++) {
       trending.forEach(item => {
         html += `
           <a href="#" class="ticker-item" data-id="${item.id}">
