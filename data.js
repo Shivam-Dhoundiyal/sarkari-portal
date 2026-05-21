@@ -1091,9 +1091,9 @@ const PORTAL_DATA = [
       "resultDate": "Pending"
     },
     "detailUrl": "https://www.sarkariresult.com/2026/ctet-feb-2026/",
-    "applyLink": "https://www.sarkariresult.com/2026/ctet-feb-2026/",
-    "notificationLink": "https://www.sarkariresult.com/2026/ctet-feb-2026/",
-    "officialWebsite": "https://www.sarkariresult.com/2026/ctet-feb-2026/",
+    "applyLink": "https://cbseit.in/cbse/2026/ctetkey/",
+    "notificationLink": "https://cdnbbsr.s3waas.gov.in/s3443dec3062d0286986e21dc0631734c9/uploads/2025/11/202511271651651092.pdf",
+    "officialWebsite": "https://ctet.nic.in/",
     "tags": [
       "CTET",
       "Central"
