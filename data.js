@@ -1332,6 +1332,40 @@ const PORTAL_DATA = [
   },
   {
     "id": "sarkari-item-39",
+    "title": "UPBED 2026 Admit Card",
+    "category": "admit-card",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2026/upbed-2026/",
+    "applyLink": "https://cdn3.digialm.com//EForms/configuredHtml/1936/97469/login.html",
+    "notificationLink": "https://www.sarkariresult.com/2026/upbed-2026/",
+    "officialWebsite": "https://bujhansi.ac.in/upbedjee.html",
+    "tags": [
+      "Government",
+      "Central",
+      "Admit Card"
+    ]
+  },
+  {
+    "id": "sarkari-item-40",
     "title": "UPPSC Assistant Professor 2025 Admit Card",
     "category": "admit-card",
     "organization": "UPPSC",
@@ -1367,7 +1401,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-40",
+    "id": "sarkari-item-41",
     "title": "Railway RRB Junior Engineer CEN 05/2025 CBT II Exam Date",
     "category": "admit-card",
     "organization": "RRB",
@@ -1401,7 +1435,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-41",
+    "id": "sarkari-item-42",
     "title": "MPESB ASI, Subedar Skill Test Admit Card 2026",
     "category": "admit-card",
     "organization": "MPESB",
@@ -1436,7 +1470,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-42",
+    "id": "sarkari-item-43",
     "title": "MPESB Vanrakshak, Jail Prahari New Exam Date 2026",
     "category": "admit-card",
     "organization": "MPESB",
@@ -1470,7 +1504,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-43",
+    "id": "sarkari-item-44",
     "title": "CSBC Bihar Police Prohibition Constable, Jail Warden & Mobile Squad Constable Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1505,7 +1539,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-44",
+    "id": "sarkari-item-45",
     "title": "CSBC Bihar Police Constable Operator Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1540,7 +1574,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-45",
+    "id": "sarkari-item-46",
     "title": "CSBC Bihar Police Constable Special Branch Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1575,7 +1609,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-46",
+    "id": "sarkari-item-47",
     "title": "Allahabad High Court HJS 2023 Mains Exam Date",
     "category": "admit-card",
     "organization": "Government",
@@ -1608,7 +1642,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-47",
+    "id": "sarkari-item-48",
     "title": "IMU CET Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1642,7 +1676,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-48",
+    "id": "sarkari-item-49",
     "title": "UPSSSC Lekhpal 2025 Mains Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -1677,7 +1711,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-49",
+    "id": "sarkari-item-50",
     "title": "NEET UG 2026 Update Exam City Details",
     "category": "admit-card",
     "organization": "Government",
@@ -1710,7 +1744,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-50",
+    "id": "sarkari-item-51",
     "title": "UPSC IAS / IFS Pre Admit Card 2026",
     "category": "admit-card",
     "organization": "UPSC",
@@ -1744,7 +1778,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-51",
+    "id": "sarkari-item-52",
     "title": "Indian Army Agniveer CEE Admit Card 2026",
     "category": "admit-card",
     "organization": "Army",
@@ -1778,7 +1812,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-52",
+    "id": "sarkari-item-53",
     "title": "NEET UG 2026 Re Exam Date",
     "category": "admit-card",
     "organization": "Government",
@@ -1811,7 +1845,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-53",
+    "id": "sarkari-item-54",
     "title": "DUVASU Mathura PVT Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1845,7 +1879,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-54",
+    "id": "sarkari-item-55",
     "title": "BSSC Office Attendant 2022 Mains Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -1880,7 +1914,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-55",
+    "id": "sarkari-item-56",
     "title": "NCERT LDC Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1914,7 +1948,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-56",
+    "id": "sarkari-item-57",
     "title": "UP Police Sub Inspector SI DV / PST Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1949,7 +1983,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-57",
+    "id": "sarkari-item-58",
     "title": "BPSC 33 Civil Judge Pre Exam Date 2026",
     "category": "admit-card",
     "organization": "BPSC",
@@ -1983,7 +2017,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-58",
+    "id": "sarkari-item-59",
     "title": "BPSSC Sub Inspector SI Mains Admit Card 2026",
     "category": "admit-card",
     "organization": "SSC",
@@ -2019,7 +2053,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-59",
+    "id": "sarkari-item-60",
     "title": "RPSC Sub Inspector 2021 Re Exam Date",
     "category": "admit-card",
     "organization": "RPSC",
@@ -2053,7 +2087,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-60",
+    "id": "sarkari-item-61",
     "title": "BPSSC Havildar Clerk Admit Card 2026",
     "category": "admit-card",
     "organization": "SSC",
@@ -2088,7 +2122,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-61",
+    "id": "sarkari-item-62",
     "title": "Bihar ITI CAT 2026 Entrance Exam Admit Card",
     "category": "admit-card",
     "organization": "Government",
@@ -2123,7 +2157,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-62",
+    "id": "sarkari-item-63",
     "title": "Railway RRB NTPC UG CEN 07/2025 Admit Card",
     "category": "admit-card",
     "organization": "RRB",
@@ -2157,7 +2191,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-63",
+    "id": "sarkari-item-64",
     "title": "NTA CUET UG 2026 Admit Card",
     "category": "admit-card",
     "organization": "NTA",
@@ -2191,7 +2225,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-64",
+    "id": "sarkari-item-65",
     "title": "SSC GD Constable 2025 Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -2226,7 +2260,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-65",
+    "id": "sarkari-item-66",
     "title": "UPSSSC UP Vidhan Bhawan Guard / Fireman Syllabus 2026",
     "category": "syllabus",
     "organization": "SSC",
@@ -2260,7 +2294,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-66",
+    "id": "sarkari-item-67",
     "title": "MPESB Nursing Officer, Sister Tutor Syllabus 2026",
     "category": "syllabus",
     "organization": "MPESB",
@@ -2294,7 +2328,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-67",
+    "id": "sarkari-item-68",
     "title": "Patna High Court Technical Assistant Syllabus 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2328,7 +2362,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-68",
+    "id": "sarkari-item-69",
     "title": "Jharkhand Teacher Eligibility Test JHTET Syllabus 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2362,7 +2396,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-69",
+    "id": "sarkari-item-70",
     "title": "UPTET 2026 Syllabus",
     "category": "syllabus",
     "organization": "Government",
@@ -2395,7 +2429,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-70",
+    "id": "sarkari-item-71",
     "title": "UP Self Enumeration Online Registration 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2429,7 +2463,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-71",
+    "id": "sarkari-item-72",
     "title": "NIELIT CCC",
     "category": "syllabus",
     "organization": "Government",
@@ -2462,7 +2496,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-72",
+    "id": "sarkari-item-73",
     "title": "MP CPCT",
     "category": "syllabus",
     "organization": "Government",
@@ -2496,7 +2530,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-73",
+    "id": "sarkari-item-74",
     "title": "MP Rojgar Panjiyan 2025",
     "category": "syllabus",
     "organization": "Government",
@@ -2530,7 +2564,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-74",
+    "id": "sarkari-item-75",
     "title": "UP Scholarship",
     "category": "syllabus",
     "organization": "Government",
@@ -2564,7 +2598,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-75",
+    "id": "sarkari-item-76",
     "title": "SSC OTR",
     "category": "syllabus",
     "organization": "SSC",
@@ -2597,7 +2631,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-76",
+    "id": "sarkari-item-77",
     "title": "UP Self Enumeration Online Registration 2026",
     "category": "important",
     "organization": "Government",
@@ -2631,7 +2665,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-77",
+    "id": "sarkari-item-78",
     "title": "NIELIT CCC",
     "category": "important",
     "organization": "Government",
@@ -2664,7 +2698,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-78",
+    "id": "sarkari-item-79",
     "title": "MP CPCT",
     "category": "important",
     "organization": "Government",
@@ -2698,7 +2732,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-79",
+    "id": "sarkari-item-80",
     "title": "MP Rojgar Panjiyan 2025",
     "category": "important",
     "organization": "Government",
@@ -2732,7 +2766,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-80",
+    "id": "sarkari-item-81",
     "title": "UP Scholarship",
     "category": "important",
     "organization": "Government",
@@ -2766,7 +2800,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-81",
+    "id": "sarkari-item-82",
     "title": "SSC OTR",
     "category": "important",
     "organization": "SSC",
@@ -2799,7 +2833,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-82",
+    "id": "sarkari-item-83",
     "title": "SSC Combined Graduate Level CGL",
     "category": "latest-job",
     "organization": "SSC",
@@ -2832,7 +2866,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-83",
+    "id": "sarkari-item-84",
     "title": "RRB ALP CEN 01/2025 Vacancy Increase",
     "category": "latest-job",
     "organization": "RRB",
@@ -2865,7 +2899,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-84",
+    "id": "sarkari-item-85",
     "title": "UP Anganwadi Hathras, Balrampur",
     "category": "latest-job",
     "organization": "Government",
@@ -2899,7 +2933,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-85",
+    "id": "sarkari-item-86",
     "title": "MPESB Hospital Assistant",
     "category": "latest-job",
     "organization": "MPESB",
@@ -2933,7 +2967,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-86",
+    "id": "sarkari-item-87",
     "title": "Jharkhand Teacher Eligibility Test JHTET",
     "category": "latest-job",
     "organization": "Government",
@@ -2967,7 +3001,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-87",
+    "id": "sarkari-item-88",
     "title": "UPSC CDS II",
     "category": "latest-job",
     "organization": "UPSC",
@@ -3000,7 +3034,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-88",
+    "id": "sarkari-item-89",
     "title": "UPSC NDA II",
     "category": "latest-job",
     "organization": "UPSC",
@@ -3033,7 +3067,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-89",
+    "id": "sarkari-item-90",
     "title": "NTA UGC NET June 2026",
     "category": "latest-job",
     "organization": "NTA",
@@ -3066,7 +3100,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-90",
+    "id": "sarkari-item-91",
     "title": "AFCAT 02/2026",
     "category": "latest-job",
     "organization": "AFCAT",
@@ -3099,7 +3133,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-91",
+    "id": "sarkari-item-92",
     "title": "Railway SECR Nagpur Apprentices",
     "category": "latest-job",
     "organization": "Railway",
@@ -3133,7 +3167,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-92",
+    "id": "sarkari-item-93",
     "title": "Railway SECR Bilaspur Apprentices",
     "category": "latest-job",
     "organization": "Railway",
@@ -3167,7 +3201,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-93",
+    "id": "sarkari-item-94",
     "title": "UPSSSC Junior Assistant, Clerk Grade II 2023 DV Document Upload",
     "category": "latest-job",
     "organization": "SSC",
@@ -3201,7 +3235,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-94",
+    "id": "sarkari-item-95",
     "title": "State Bank of India SBI Apprentices",
     "category": "latest-job",
     "organization": "SBI",
@@ -3235,7 +3269,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-95",
+    "id": "sarkari-item-96",
     "title": "Bank of Baroda Apprentices",
     "category": "latest-job",
     "organization": "Government",
@@ -3269,7 +3303,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-96",
+    "id": "sarkari-item-97",
     "title": "Bihar Police BPSSC ASI Technical",
     "category": "latest-job",
     "organization": "SSC",
@@ -3304,7 +3338,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-97",
+    "id": "sarkari-item-98",
     "title": "UPSSSC Forest Guard",
     "category": "latest-job",
     "organization": "SSC",
@@ -3338,7 +3372,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-98",
+    "id": "sarkari-item-99",
     "title": "Railway RRB Technician CEN 02/2026",
     "category": "latest-job",
     "organization": "RRB",
@@ -3372,7 +3406,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-99",
+    "id": "sarkari-item-100",
     "title": "Navy SSC IT",
     "category": "latest-job",
     "organization": "SSC",
@@ -3405,7 +3439,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-100",
+    "id": "sarkari-item-101",
     "title": "Railway RRB ALP CEN 01/2026",
     "category": "latest-job",
     "organization": "RRB",
@@ -3438,7 +3472,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-101",
+    "id": "sarkari-item-102",
     "title": "NFL Field Representative",
     "category": "latest-job",
     "organization": "NTA",
@@ -3471,7 +3505,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-102",
+    "id": "sarkari-item-103",
     "title": "Indian Army 10+2 TES 56",
     "category": "latest-job",
     "organization": "Army",
@@ -3504,7 +3538,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-103",
+    "id": "sarkari-item-104",
     "title": "SBI Trade Finance Officer",
     "category": "latest-job",
     "organization": "SBI",
@@ -3537,7 +3571,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-104",
+    "id": "sarkari-item-105",
     "title": "CTET September 2026",
     "category": "latest-job",
     "organization": "CTET",
@@ -3570,7 +3604,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-105",
+    "id": "sarkari-item-106",
     "title": "UPPSC APO 2025 Mains",
     "category": "latest-job",
     "organization": "UPPSC",
@@ -3604,7 +3638,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-106",
+    "id": "sarkari-item-107",
     "title": "Bihar BPSC 72nd CCE Pre",
     "category": "latest-job",
     "organization": "BPSC",
@@ -3638,7 +3672,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-107",
+    "id": "sarkari-item-108",
     "title": "RSSB Contractual Teaching Associate",
     "category": "latest-job",
     "organization": "Government",
@@ -3673,7 +3707,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-108",
+    "id": "sarkari-item-109",
     "title": "UPESSC Assistant Professor BEd",
     "category": "latest-job",
     "organization": "SSC",
@@ -3707,7 +3741,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-109",
+    "id": "sarkari-item-110",
     "title": "NTA ICAR AIEEA PG, Phd Admissions",
     "category": "admission",
     "organization": "NTA",
@@ -3740,7 +3774,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-110",
+    "id": "sarkari-item-111",
     "title": "UPCATET 2026",
     "category": "admission",
     "organization": "Government",
@@ -3773,7 +3807,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-111",
+    "id": "sarkari-item-112",
     "title": "UPBED 2026 Correction / Edit Form",
     "category": "admission",
     "organization": "Government",
@@ -3806,7 +3840,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-112",
+    "id": "sarkari-item-113",
     "title": "UP CAHET",
     "category": "admission",
     "organization": "Government",
@@ -3840,7 +3874,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-113",
+    "id": "sarkari-item-114",
     "title": "Allahabad University PGAT Admissions",
     "category": "admission",
     "organization": "Government",
@@ -3873,7 +3907,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-114",
+    "id": "sarkari-item-115",
     "title": "JEECUP 2026",
     "category": "admission",
     "organization": "JEE",
@@ -3907,7 +3941,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-115",
+    "id": "sarkari-item-116",
     "title": "Bihar 2 Year BEd Admissions",
     "category": "admission",
     "organization": "Government",
@@ -3941,7 +3975,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-116",
+    "id": "sarkari-item-117",
     "title": "UP GNM Entrance Exam UPGET",
     "category": "admission",
     "organization": "Government",
@@ -3975,7 +4009,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-117",
+    "id": "sarkari-item-118",
     "title": "MUIT Noida, Lucknow Admission",
     "category": "admission",
     "organization": "Government",
@@ -4008,7 +4042,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-118",
+    "id": "sarkari-item-119",
     "title": "UP CNET 2026",
     "category": "admission",
     "organization": "Government",
@@ -4042,7 +4076,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-119",
+    "id": "sarkari-item-120",
     "title": "UPSSSC Cane Supervisor",
     "category": "latest-job",
     "organization": "SSC",
@@ -4076,7 +4110,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-120",
+    "id": "sarkari-item-121",
     "title": "Patna High Court District Judge",
     "category": "latest-job",
     "organization": "Government",
@@ -4110,7 +4144,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-121",
+    "id": "sarkari-item-122",
     "title": "NFL Management Trainee",
     "category": "latest-job",
     "organization": "Government",
@@ -4143,7 +4177,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-122",
+    "id": "sarkari-item-123",
     "title": "MPPSC Scientific Officer Biology",
     "category": "latest-job",
     "organization": "Government",
@@ -4177,7 +4211,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-123",
+    "id": "sarkari-item-124",
     "title": "UPSSSC Assistant Statistical Officer",
     "category": "latest-job",
     "organization": "SSC",
@@ -4211,7 +4245,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-124",
+    "id": "sarkari-item-125",
     "title": "MP Guest Teacher",
     "category": "latest-job",
     "organization": "Government",
@@ -4246,7 +4280,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-125",
+    "id": "sarkari-item-126",
     "title": "Coal India CIL Management Trainee",
     "category": "latest-job",
     "organization": "Government",
@@ -4279,7 +4313,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-126",
+    "id": "sarkari-item-127",
     "title": "Railway SECR Raipur Apprentices",
     "category": "latest-job",
     "organization": "Railway",
@@ -4313,7 +4347,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-127",
+    "id": "sarkari-item-128",
     "title": "SSC Stenographer 2025 Option Cum Preference Form",
     "category": "latest-job",
     "organization": "SSC",
@@ -4346,7 +4380,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-128",
+    "id": "sarkari-item-129",
     "title": "Navy SSC Executive IT",
     "category": "latest-job",
     "organization": "SSC",
@@ -4379,7 +4413,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-129",
+    "id": "sarkari-item-130",
     "title": "UP Cooperative Bank UPCISB Various Post",
     "category": "latest-job",
     "organization": "Government",
@@ -4413,7 +4447,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-130",
+    "id": "sarkari-item-131",
     "title": "BPSSC Havildar Instructor",
     "category": "latest-job",
     "organization": "SSC",
@@ -4447,7 +4481,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-131",
+    "id": "sarkari-item-132",
     "title": "Union Bank UBI Apprentices",
     "category": "latest-job",
     "organization": "Government",
@@ -4481,7 +4515,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-132",
+    "id": "sarkari-item-133",
     "title": "RBI Officer Grade B",
     "category": "latest-job",
     "organization": "Government",
@@ -4514,7 +4548,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-133",
+    "id": "sarkari-item-134",
     "title": "MPPSC ADPO",
     "category": "latest-job",
     "organization": "Government",
@@ -4548,7 +4582,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-134",
+    "id": "sarkari-item-135",
     "title": "UP Anganwadi Worker",
     "category": "latest-job",
     "organization": "Government",
@@ -4582,7 +4616,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-135",
+    "id": "sarkari-item-136",
     "title": "UPTET 2026",
     "category": "latest-job",
     "organization": "Government",
@@ -4615,7 +4649,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-136",
+    "id": "sarkari-item-137",
     "title": "SSC Stenographer",
     "category": "latest-job",
     "organization": "SSC",
@@ -4648,7 +4682,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-137",
+    "id": "sarkari-item-138",
     "title": "RRB Ministerial and Isolated Post CEN 07/2024 Update Qualification",
     "category": "latest-job",
     "organization": "RRB",
@@ -4681,7 +4715,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-138",
+    "id": "sarkari-item-139",
     "title": "NTPC Assistant Executive Operation",
     "category": "latest-job",
     "organization": "Government",
@@ -4714,7 +4748,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-139",
+    "id": "sarkari-item-140",
     "title": "SSC Combined Hindi Translators",
     "category": "latest-job",
     "organization": "SSC",
@@ -4747,7 +4781,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-140",
+    "id": "sarkari-item-141",
     "title": "UPSSSC UP Pollution Control Board Various Post",
     "category": "latest-job",
     "organization": "SSC",
@@ -4781,7 +4815,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-141",
+    "id": "sarkari-item-142",
     "title": "PGCIL Diploma Trainee",
     "category": "latest-job",
     "organization": "Government",
@@ -4814,7 +4848,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-142",
+    "id": "sarkari-item-143",
     "title": "UPSSSC Havaldar Instructor",
     "category": "latest-job",
     "organization": "SSC",
@@ -4848,7 +4882,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-143",
+    "id": "sarkari-item-144",
     "title": "SSB Constable, HC, ASI, SI Edit",
     "category": "latest-job",
     "organization": "Government",
@@ -4882,7 +4916,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-144",
+    "id": "sarkari-item-145",
     "title": "ITBP Assistant Commandant Engineer",
     "category": "latest-job",
     "organization": "Government",
@@ -4915,7 +4949,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-145",
+    "id": "sarkari-item-146",
     "title": "LIC HFL Junior Assistant",
     "category": "latest-job",
     "organization": "Government",
@@ -4948,7 +4982,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-146",
+    "id": "sarkari-item-147",
     "title": "Patna High Court Computer Operator Cum Typist",
     "category": "latest-job",
     "organization": "Government",
@@ -4982,7 +5016,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-147",
+    "id": "sarkari-item-148",
     "title": "SECL Grade C Various Post",
     "category": "latest-job",
     "organization": "Government",
@@ -5015,7 +5049,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-148",
+    "id": "sarkari-item-149",
     "title": "RBI JE Junior Engineer",
     "category": "latest-job",
     "organization": "Government",
@@ -5049,7 +5083,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-149",
+    "id": "sarkari-item-150",
     "title": "UPSSSC Platoon Commander / Block Organizer",
     "category": "latest-job",
     "organization": "SSC",
@@ -5083,7 +5117,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-150",
+    "id": "sarkari-item-151",
     "title": "UPSSSC Assistant Boring Technician",
     "category": "latest-job",
     "organization": "SSC",
@@ -5118,7 +5152,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-151",
+    "id": "sarkari-item-152",
     "title": "Bihar BTSC Instructor",
     "category": "latest-job",
     "organization": "Government",
@@ -5152,7 +5186,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-152",
+    "id": "sarkari-item-153",
     "title": "SSC Selection Post 14th",
     "category": "latest-job",
     "organization": "SSC",
@@ -5185,7 +5219,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-153",
+    "id": "sarkari-item-154",
     "title": "Chandigarh Clerk, Steno",
     "category": "latest-job",
     "organization": "Government",
@@ -5218,7 +5252,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-154",
+    "id": "sarkari-item-155",
     "title": "SSC GD Constable 2025 Choose Exam Week Preferences",
     "category": "latest-job",
     "organization": "SSC",
@@ -5252,7 +5286,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-155",
+    "id": "sarkari-item-156",
     "title": "UPSSSC UP Vidhan Bhawan Guard / Fireman",
     "category": "latest-job",
     "organization": "SSC",
@@ -5286,7 +5320,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-156",
+    "id": "sarkari-item-157",
     "title": "ICSIL DEO, MTS",
     "category": "latest-job",
     "organization": "Government",
@@ -5319,7 +5353,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-157",
+    "id": "sarkari-item-158",
     "title": "NPCIL Executive Trainee ET",
     "category": "latest-job",
     "organization": "Government",
@@ -5352,7 +5386,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-158",
+    "id": "sarkari-item-159",
     "title": "Army SSC RVC Veterinary Graduates",
     "category": "latest-job",
     "organization": "SSC",
@@ -5385,7 +5419,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-159",
+    "id": "sarkari-item-160",
     "title": "NCL HEMM Operator, Staff Nurse, Overseer Civil",
     "category": "latest-job",
     "organization": "Government",
@@ -5418,7 +5452,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-160",
+    "id": "sarkari-item-161",
     "title": "UPSSSC Various Post",
     "category": "latest-job",
     "organization": "SSC",
@@ -5452,7 +5486,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-161",
+    "id": "sarkari-item-162",
     "title": "BTSC Laboratory Assistant",
     "category": "latest-job",
     "organization": "Government",
@@ -5485,7 +5519,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-162",
+    "id": "sarkari-item-163",
     "title": "CRPF Constable Tradesman",
     "category": "latest-job",
     "organization": "Government",
@@ -5519,7 +5553,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-163",
+    "id": "sarkari-item-164",
     "title": "Indian Bank Specialist Officer SO",
     "category": "latest-job",
     "organization": "Government",
