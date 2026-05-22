@@ -341,7 +341,8 @@ header {
 
 .ticker-marquee {
   white-space: nowrap;
-  display: inline-flex;
+  display: flex;
+  width: max-content;
   animation: marquee 30s linear infinite;
   padding-left: 2rem;
   will-change: transform;
@@ -350,8 +351,10 @@ header {
   -webkit-backface-visibility: hidden;
 }
 
-.ticker-marquee:hover {
-  animation-play-state: paused;
+@media (hover: hover) {
+  .ticker-marquee:hover {
+    animation-play-state: paused;
+  }
 }
 
 .ticker-item {

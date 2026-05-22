@@ -1,4 +1,4 @@
-const CACHE_NAME = "sarkari-portal-v11";
+const CACHE_NAME = "sarkari-portal-v12";
 const ASSETS = [
   "./",
   "./index.html",
