@@ -2906,6 +2906,72 @@ const PORTAL_DATA = [
   },
   {
     "id": "sarkari-item-85",
+    "title": "NALCO Non Executive",
+    "category": "latest-job",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "2026-06-25",
+    "vacancies": "Various Posts",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "18-35 Years",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "2026-06-25",
+      "feeLast": "2026-06-25",
+      "examTier1": "To be Announced",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2026/nalco-non-executive-may26/",
+    "applyLink": "https://ibpsreg.ibps.in/nalconeapr26/",
+    "notificationLink": "https://mudira.nalcoindia.co.in/iorms/Uploaded_Data/Advertisement/639144655968105605_Final%20Adv%2010260213%2014%20May2026.pdf",
+    "officialWebsite": "https://mudira.nalcoindia.co.in/rec_portal/Default.aspx",
+    "tags": [
+      "Government",
+      "Central"
+    ]
+  },
+  {
+    "id": "sarkari-item-86",
+    "title": "NTA UGC NET June 2026",
+    "category": "latest-job",
+    "organization": "NTA",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "2026-06-25",
+    "vacancies": "Various Posts",
+    "fee": {
+      "gen_obc": "\u20b9800",
+      "sc_st_ph": "\u20b9400",
+      "female": "\u20b90"
+    },
+    "ageLimit": "18-35 Years",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "2026-06-25",
+      "feeLast": "2026-06-25",
+      "examTier1": "To be Announced",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2026/nta-ugc-net-june-2026/",
+    "applyLink": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
+    "notificationLink": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/04/202604291863555100.pdf",
+    "officialWebsite": "https://ugcnet.nta.nic.in/",
+    "tags": [
+      "NTA",
+      "Central"
+    ]
+  },
+  {
+    "id": "sarkari-item-87",
     "title": "RSSB Computer Instructor",
     "category": "latest-job",
     "organization": "Government",
@@ -2939,7 +3005,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-86",
+    "id": "sarkari-item-88",
     "title": "Navy 10+2 B.Tech Entry",
     "category": "latest-job",
     "organization": "Navy",
@@ -2972,7 +3038,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-87",
+    "id": "sarkari-item-89",
     "title": "UPSSSC Technical Assistant Group C",
     "category": "latest-job",
     "organization": "SSC",
@@ -3006,7 +3072,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-88",
+    "id": "sarkari-item-90",
     "title": "SSC Combined Graduate Level CGL",
     "category": "latest-job",
     "organization": "SSC",
@@ -3039,7 +3105,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-89",
+    "id": "sarkari-item-91",
     "title": "RRB ALP CEN 01/2025 Vacancy Increase",
     "category": "latest-job",
     "organization": "RRB",
@@ -3072,7 +3138,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-90",
+    "id": "sarkari-item-92",
     "title": "UP Anganwadi Hathras, Balrampur",
     "category": "latest-job",
     "organization": "Government",
@@ -3106,7 +3172,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-91",
+    "id": "sarkari-item-93",
     "title": "MPESB Hospital Assistant",
     "category": "latest-job",
     "organization": "MPESB",
@@ -3140,7 +3206,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-92",
+    "id": "sarkari-item-94",
     "title": "Jharkhand Teacher Eligibility Test JHTET",
     "category": "latest-job",
     "organization": "Government",
@@ -3174,7 +3240,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-93",
+    "id": "sarkari-item-95",
     "title": "UPSC CDS II",
     "category": "latest-job",
     "organization": "UPSC",
@@ -3207,7 +3273,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-94",
+    "id": "sarkari-item-96",
     "title": "UPSC NDA II",
     "category": "latest-job",
     "organization": "UPSC",
@@ -3240,40 +3306,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-95",
-    "title": "NTA UGC NET June 2026",
-    "category": "latest-job",
-    "organization": "NTA",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "2026-06-25",
-    "vacancies": "Various Posts",
-    "fee": {
-      "gen_obc": "\u20b9800",
-      "sc_st_ph": "\u20b9400",
-      "female": "\u20b90"
-    },
-    "ageLimit": "18-35 Years",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "2026-06-25",
-      "feeLast": "2026-06-25",
-      "examTier1": "To be Announced",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2026/nta-ugc-net-june-2026/",
-    "applyLink": "https://examinationservices.nic.in/ExamSys26Part2/Root/Home.aspx?enc=Ei4cajBkK1gZSfgr53ImFV/yIzhTZHBze3wooSg9Djgija2T1vzGc16BomrI4u26",
-    "notificationLink": "https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/04/202604291863555100.pdf",
-    "officialWebsite": "https://ugcnet.nta.nic.in/",
-    "tags": [
-      "NTA",
-      "Central"
-    ]
-  },
-  {
-    "id": "sarkari-item-96",
+    "id": "sarkari-item-97",
     "title": "AFCAT 02/2026",
     "category": "latest-job",
     "organization": "AFCAT",
@@ -3306,7 +3339,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-97",
+    "id": "sarkari-item-98",
     "title": "Railway SECR Nagpur Apprentices",
     "category": "latest-job",
     "organization": "Railway",
@@ -3340,7 +3373,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-98",
+    "id": "sarkari-item-99",
     "title": "Railway SECR Bilaspur Apprentices",
     "category": "latest-job",
     "organization": "Railway",
@@ -3374,7 +3407,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-99",
+    "id": "sarkari-item-100",
     "title": "UPSSSC Junior Assistant, Clerk Grade II 2023 DV Document Upload",
     "category": "latest-job",
     "organization": "SSC",
@@ -3408,7 +3441,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-100",
+    "id": "sarkari-item-101",
     "title": "State Bank of India SBI Apprentices",
     "category": "latest-job",
     "organization": "SBI",
@@ -3442,7 +3475,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-101",
+    "id": "sarkari-item-102",
     "title": "Bank of Baroda Apprentices",
     "category": "latest-job",
     "organization": "Government",
@@ -3476,7 +3509,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-102",
+    "id": "sarkari-item-103",
     "title": "Bihar Police BPSSC ASI Technical",
     "category": "latest-job",
     "organization": "SSC",
@@ -3511,7 +3544,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-103",
+    "id": "sarkari-item-104",
     "title": "Railway RRB Technician CEN 02/2026",
     "category": "latest-job",
     "organization": "RRB",
@@ -3542,39 +3575,6 @@ const PORTAL_DATA = [
       "RRB",
       "Central",
       "Technical"
-    ]
-  },
-  {
-    "id": "sarkari-item-104",
-    "title": "Navy SSC IT",
-    "category": "latest-job",
-    "organization": "SSC",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "2026-06-25",
-    "vacancies": "Various Posts",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "18-35 Years",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "2026-06-25",
-      "feeLast": "2026-06-25",
-      "examTier1": "To be Announced",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/force/navy-ssc-it-jan27/",
-    "applyLink": "https://www.joinindiannavy.gov.in/en/account/account/state",
-    "notificationLink": "https://doc.sarkariresults.org.in/Navy_SSC_IT_SarkariResult.Com_Advertisement_SSC_IT_Jan_27.pdf",
-    "officialWebsite": "https://www.joinindiannavy.gov.in",
-    "tags": [
-      "SSC",
-      "Central"
     ]
   },
   {
