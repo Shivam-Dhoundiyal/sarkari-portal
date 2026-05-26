@@ -1368,6 +1368,73 @@ const PORTAL_DATA = [
   },
   {
     "id": "sarkari-item-40",
+    "title": "All India Bar Exam AIBE 21 Admit Card 2026",
+    "category": "admit-card",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2026/all-india-bar-aibe-21/",
+    "applyLink": "https://aibe.digivarsity.online/WebApp/Forms/UserAuthentication.aspx",
+    "notificationLink": "https://www.sarkariresult.com/2026/all-india-bar-aibe-21/",
+    "officialWebsite": "https://www.allindiabarexamination.com/",
+    "tags": [
+      "Government",
+      "Central",
+      "Admit Card"
+    ]
+  },
+  {
+    "id": "sarkari-item-41",
+    "title": "Haryana TET HTET 2026 Exam Date",
+    "category": "admit-card",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://tinyurl.com/44jsme2x",
+    "applyLink": "https://htet.eapplynow.com/HTETApp25/Pages/Login05.aspx",
+    "notificationLink": "https://tinyurl.com/44jsme2x",
+    "officialWebsite": "https://htet.eapplynow.com/HTETApp25/Pages/Login05.aspx",
+    "tags": [
+      "Government",
+      "Central"
+    ]
+  },
+  {
+    "id": "sarkari-item-42",
     "title": "BPSSC Havildar Clerk Advt No 01/2026 Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -1402,7 +1469,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-41",
+    "id": "sarkari-item-43",
     "title": "Bihar DCECE Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1437,7 +1504,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-42",
+    "id": "sarkari-item-44",
     "title": "UP TGT 2022 Exam City Details",
     "category": "admit-card",
     "organization": "Government",
@@ -1471,7 +1538,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-43",
+    "id": "sarkari-item-45",
     "title": "CSBC Bihar Police Prohibition Constable, Jail Warder & Mobile Squad Constable Admit Card 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1507,7 +1574,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-44",
+    "id": "sarkari-item-46",
     "title": "RPSC School Lecturer PGT Teacher 2025 Exam City Details",
     "category": "admit-card",
     "organization": "RPSC",
@@ -1542,7 +1609,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-45",
+    "id": "sarkari-item-47",
     "title": "UPBED 2026 Admit Card",
     "category": "admit-card",
     "organization": "Government",
@@ -1576,7 +1643,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-46",
+    "id": "sarkari-item-48",
     "title": "UPPSC GDC Assistant Professor Admit Card 2026",
     "category": "admit-card",
     "organization": "UPPSC",
@@ -1612,7 +1679,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-47",
+    "id": "sarkari-item-49",
     "title": "Railway RRB Junior Engineer CEN 05/2025 CBT II Exam Date",
     "category": "admit-card",
     "organization": "RRB",
@@ -1646,7 +1713,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-48",
+    "id": "sarkari-item-50",
     "title": "MPESB ASI, Subedar Skill Test Admit Card 2026",
     "category": "admit-card",
     "organization": "MPESB",
@@ -1681,7 +1748,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-49",
+    "id": "sarkari-item-51",
     "title": "MPESB Vanrakshak, Jail Prahari New Exam Date 2026",
     "category": "admit-card",
     "organization": "MPESB",
@@ -1715,7 +1782,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-50",
+    "id": "sarkari-item-52",
     "title": "CSBC Bihar Police Constable Operator Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1750,7 +1817,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-51",
+    "id": "sarkari-item-53",
     "title": "CSBC Bihar Police Constable Special Branch Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1785,7 +1852,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-52",
+    "id": "sarkari-item-54",
     "title": "Allahabad High Court HJS 2023 Mains Exam Date",
     "category": "admit-card",
     "organization": "Government",
@@ -1818,7 +1885,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-53",
+    "id": "sarkari-item-55",
     "title": "IMU CET Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1852,7 +1919,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-54",
+    "id": "sarkari-item-56",
     "title": "UPSSSC Lekhpal 2025 Mains Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -1887,7 +1954,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-55",
+    "id": "sarkari-item-57",
     "title": "NEET UG 2026 Update Exam City Details",
     "category": "admit-card",
     "organization": "Government",
@@ -1920,7 +1987,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-56",
+    "id": "sarkari-item-58",
     "title": "UPSC IAS / IFS Pre Admit Card 2026",
     "category": "admit-card",
     "organization": "UPSC",
@@ -1954,7 +2021,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-57",
+    "id": "sarkari-item-59",
     "title": "Indian Army Agniveer CEE Admit Card 2026",
     "category": "admit-card",
     "organization": "Army",
@@ -1988,7 +2055,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-58",
+    "id": "sarkari-item-60",
     "title": "NEET UG 2026 Re Exam Date",
     "category": "admit-card",
     "organization": "Government",
@@ -2021,7 +2088,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-59",
+    "id": "sarkari-item-61",
     "title": "DUVASU Mathura PVT Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -2055,7 +2122,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-60",
+    "id": "sarkari-item-62",
     "title": "BSSC Office Attendant 2022 Mains Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -2086,77 +2153,6 @@ const PORTAL_DATA = [
       "SSC",
       "State",
       "Bihar",
-      "Admit Card"
-    ]
-  },
-  {
-    "id": "sarkari-item-61",
-    "title": "UP Police Sub Inspector SI DV / PST Exam Date 2026",
-    "category": "admit-card",
-    "organization": "Police",
-    "level": "State",
-    "state": "Uttar Pradesh",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2025/up-police-si-03-2025/",
-    "applyLink": "https://uppbpb.gov.in/FilesUploaded/Notice/SICP-Admit-Cards8bfea044-776e-4fd3-902a-e8c0eebbd606.pdf",
-    "notificationLink": "https://tinyurl.com/2duvbmn2",
-    "officialWebsite": "https://uppbpb.gov.in/",
-    "tags": [
-      "Police",
-      "State",
-      "Uttar Pradesh",
-      "Police"
-    ]
-  },
-  {
-    "id": "sarkari-item-62",
-    "title": "BPSSC Sub Inspector SI Mains Admit Card 2026",
-    "category": "admit-card",
-    "organization": "SSC",
-    "level": "State",
-    "state": "Bihar",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/bihar/bpssc-sub-inspector-05-2025/",
-    "applyLink": "https://apply-bpssc.com/bpssc525weadmitcards/applicationIndex",
-    "notificationLink": "https://bpssc.bihar.gov.in/Notices/Advt.%2005-2025.pdf",
-    "officialWebsite": "https://bpssc.bihar.gov.in/",
-    "tags": [
-      "SSC",
-      "State",
-      "Bihar",
-      "Police",
       "Admit Card"
     ]
   },
