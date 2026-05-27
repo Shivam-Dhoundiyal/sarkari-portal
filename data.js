@@ -2,6 +2,113 @@
 const PORTAL_DATA = [
   {
     "id": "sarkari-item-0",
+    "title": "Rajasthan RSSB REET 2025 Upper Primary, Primary Teacher Result 2026",
+    "category": "result",
+    "organization": "Government",
+    "level": "State",
+    "state": "Rajasthan",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://tinyurl.com/mry9xpma",
+    "applyLink": "https://tinyurl.com/mry9xpma",
+    "notificationLink": "https://tinyurl.com/mry9xpma",
+    "officialWebsite": "https://tinyurl.com/mry9xpma",
+    "tags": [
+      "Government",
+      "State",
+      "Rajasthan",
+      "Teaching",
+      "Result"
+    ]
+  },
+  {
+    "id": "sarkari-item-1",
+    "title": "CSBC Bihar Police Constable 2025 Final Result",
+    "category": "result",
+    "organization": "Police",
+    "level": "State",
+    "state": "Bihar",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/bihar/csbc-bp-constable-01-2025/",
+    "applyLink": "http://csbc.bih.nic.in/Default.htm",
+    "notificationLink": "https://csbc.bihar.gov.in/Advt/Advt-01-2025-Constables.pdf",
+    "officialWebsite": "http://csbc.bih.nic.in/Default.htm",
+    "tags": [
+      "Police",
+      "State",
+      "Bihar",
+      "Police",
+      "Result"
+    ]
+  },
+  {
+    "id": "sarkari-item-2",
+    "title": "SSC Delhi Police Constable Driver 2025 Marks",
+    "category": "result",
+    "organization": "SSC",
+    "level": "State",
+    "state": "Delhi",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/ssc/ssc-dp-constable-driver-2025/",
+    "applyLink": "https://ssc.gov.in/login",
+    "notificationLink": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPCD_2025.pdf",
+    "officialWebsite": "https://ssc.gov.in/",
+    "tags": [
+      "SSC",
+      "State",
+      "Delhi",
+      "Police"
+    ]
+  },
+  {
+    "id": "sarkari-item-3",
     "title": "UPSSSC UP Pollution Control Board Various Post Eligibility Result 2026",
     "category": "result",
     "organization": "SSC",
@@ -36,7 +143,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-1",
+    "id": "sarkari-item-4",
     "title": "Railway RRB NTPC 10+2 CEN 06/2024 Final Result",
     "category": "result",
     "organization": "RRB",
@@ -70,7 +177,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-2",
+    "id": "sarkari-item-5",
     "title": "DRDO CEPTAM 11 Tier I Result 2026",
     "category": "result",
     "organization": "DRDO",
@@ -104,7 +211,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-3",
+    "id": "sarkari-item-6",
     "title": "BSF Head Constable RO / RM 2025 Result",
     "category": "result",
     "organization": "Government",
@@ -139,7 +246,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-4",
+    "id": "sarkari-item-7",
     "title": "RBI Assistant Pre Result 2026",
     "category": "result",
     "organization": "Government",
@@ -173,7 +280,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-5",
+    "id": "sarkari-item-8",
     "title": "Indian Navy INCET 01/2024 Reserve List / Result",
     "category": "result",
     "organization": "Navy",
@@ -207,7 +314,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-6",
+    "id": "sarkari-item-9",
     "title": "Bihar Board BSEB Class 10th Matric Compartment Result 2026",
     "category": "result",
     "organization": "Government",
@@ -242,7 +349,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-7",
+    "id": "sarkari-item-10",
     "title": "Bihar Board BSEB Class 12th Inter Compartment Result 2026",
     "category": "result",
     "organization": "Government",
@@ -277,7 +384,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-8",
+    "id": "sarkari-item-11",
     "title": "NTA NCHMJEE 2026 Result / Score Card",
     "category": "result",
     "organization": "JEE",
@@ -311,7 +418,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-9",
+    "id": "sarkari-item-12",
     "title": "MPPSC Pre 2026 Result",
     "category": "result",
     "organization": "Government",
@@ -346,7 +453,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-10",
+    "id": "sarkari-item-13",
     "title": "RPSC Sub Inspector Telecom 2024 PET Result",
     "category": "result",
     "organization": "RPSC",
@@ -381,7 +488,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-11",
+    "id": "sarkari-item-14",
     "title": "Railway RRB Technician Grade I Result CEN 02/2025",
     "category": "result",
     "organization": "RRB",
@@ -416,7 +523,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-12",
+    "id": "sarkari-item-15",
     "title": "UPSC Exam Calendar 2027",
     "category": "result",
     "organization": "UPSC",
@@ -449,7 +556,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-13",
+    "id": "sarkari-item-16",
     "title": "DSSSB PGT Sanskrit Result 2026",
     "category": "result",
     "organization": "DSSSB",
@@ -484,7 +591,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-14",
+    "id": "sarkari-item-17",
     "title": "MPESB MP Police SI Phase II Mains Result 2026",
     "category": "result",
     "organization": "MPESB",
@@ -520,7 +627,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-15",
+    "id": "sarkari-item-18",
     "title": "UPSSSC Pharmacist Eligibility Result 2026",
     "category": "result",
     "organization": "SSC",
@@ -555,7 +662,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-16",
+    "id": "sarkari-item-19",
     "title": "MHA IB ACIO Tech 2025 Final Result",
     "category": "result",
     "organization": "Government",
@@ -589,7 +696,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-17",
+    "id": "sarkari-item-20",
     "title": "UPPSC LT Grade Assistant Teacher Computer Result 2026",
     "category": "result",
     "organization": "UPPSC",
@@ -625,7 +732,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-18",
+    "id": "sarkari-item-21",
     "title": "Rajasthan High Court Chauffeur, Driver Result 2026",
     "category": "result",
     "organization": "Government",
@@ -660,7 +767,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-19",
+    "id": "sarkari-item-22",
     "title": "RSSB Stenographer 2024 Typing Test Result",
     "category": "result",
     "organization": "Government",
@@ -695,7 +802,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-20",
+    "id": "sarkari-item-23",
     "title": "NTA NTET Result 2026",
     "category": "result",
     "organization": "NTA",
@@ -729,7 +836,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-21",
+    "id": "sarkari-item-24",
     "title": "CBSE Group A, B, C Tier II Exam Result 2026",
     "category": "result",
     "organization": "CBSE",
@@ -764,7 +871,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-22",
+    "id": "sarkari-item-25",
     "title": "SSC CGL 2025 Final Result",
     "category": "result",
     "organization": "SSC",
@@ -798,7 +905,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-23",
+    "id": "sarkari-item-26",
     "title": "Haryana Board HBSE Class 10th Result 2026",
     "category": "result",
     "organization": "Government",
@@ -832,52 +939,18 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-24",
-    "title": "CBSE Board Class 12th Result 2026",
-    "category": "result",
-    "organization": "CBSE",
+    "id": "sarkari-item-27",
+    "title": "UPSC Civil Services IAS Pre Answer Key 2026",
+    "category": "answer-key",
+    "organization": "UPSC",
     "level": "Central",
     "state": "All India",
     "dateAdded": "2026-05-21",
     "lastDate": "N/A",
-    "vacancies": "Declared",
+    "vacancies": "N/A",
     "fee": {
       "gen_obc": "\u20b9100",
       "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Passed Class 12th (Intermediate) Exam from any recognized board in India.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2026/cbse-result-2026/",
-    "applyLink": "https://www.cbse.gov.in/",
-    "notificationLink": "https://www.sarkariresult.com/2026/cbse-result-2026/",
-    "officialWebsite": "https://www.cbse.gov.in/",
-    "tags": [
-      "CBSE",
-      "Central",
-      "Result"
-    ]
-  },
-  {
-    "id": "sarkari-item-25",
-    "title": "Railway RRB Junior Engineer CEN 05/2025 Result with Score Card",
-    "category": "result",
-    "organization": "RRB",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Declared",
-    "fee": {
-      "gen_obc": "\u20b9500",
-      "sc_st_ph": "\u20b9250",
       "female": "\u20b90"
     },
     "ageLimit": "N/A",
@@ -889,19 +962,17 @@ const PORTAL_DATA = [
       "examTier1": "Held",
       "resultDate": "Pending"
     },
-    "detailUrl": "https://www.sarkariresult.com/railway/rrb-junior-engineer-cen-05-2025/",
-    "applyLink": "https://www.rrbcdg.gov.in/uploads/2025/05-JE/022025JE-CBT2_Schedule-Hi.pdf",
-    "notificationLink": "https://rrbranchi.gov.in/upload/files/pdf/04_14_24pm142384bf87cab8ba2918a287b376265c.pdf",
-    "officialWebsite": "https://www.rrbapply.gov.in/#/auth/landing",
+    "detailUrl": "https://www.sarkariresult.com/upsc/upsc-ias-ifs-pre-2026/",
+    "applyLink": "https://doc.sarkariresults.org.in/ProvAnsKey%E2%80%93GS-I-CSP-Exam-2026-270526.pdf",
+    "notificationLink": "https://doc.sarkariresults.org.in/UPSC_English_Notification_2026.pdf",
+    "officialWebsite": "https://upsc.gov.in/",
     "tags": [
-      "RRB",
-      "Central",
-      "Technical",
-      "Result"
+      "UPSC",
+      "Central"
     ]
   },
   {
-    "id": "sarkari-item-26",
+    "id": "sarkari-item-28",
     "title": "JEE Advanced 2026 Answer Key",
     "category": "answer-key",
     "organization": "JEE",
@@ -934,7 +1005,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-27",
+    "id": "sarkari-item-29",
     "title": "UPSSSC Lekhpal Answer Key 2026",
     "category": "answer-key",
     "organization": "SSC",
@@ -968,7 +1039,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-28",
+    "id": "sarkari-item-30",
     "title": "DSSSB Various Post Answer Key",
     "category": "answer-key",
     "organization": "DSSSB",
@@ -1002,7 +1073,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-29",
+    "id": "sarkari-item-31",
     "title": "NCERT LDC Answer Key 2026",
     "category": "answer-key",
     "organization": "Government",
@@ -1035,41 +1106,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-30",
-    "title": "MPESB Nursing Officer, Sister Tutor Answer Key 2026",
-    "category": "answer-key",
-    "organization": "MPESB",
-    "level": "State",
-    "state": "Madhya Pradesh",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "N/A",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/mp/mpesb-nursing-officer-tutor-mar26/",
-    "applyLink": "https://nursi2026.cbtexam.in/Home/ListofExam.aspx",
-    "notificationLink": "https://doc.sarkariresults.org.in/SarkariResult.Com_Health_Nursing_2026RuleBook02_04_2026.pdf",
-    "officialWebsite": "https://esb.mp.gov.in/e_default.html",
-    "tags": [
-      "MPESB",
-      "State",
-      "Madhya Pradesh"
-    ]
-  },
-  {
-    "id": "sarkari-item-31",
+    "id": "sarkari-item-32",
     "title": "CTET February 2026 Certificate Download",
     "category": "answer-key",
     "organization": "CTET",
@@ -1102,7 +1139,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-32",
+    "id": "sarkari-item-33",
     "title": "NTA CSIR NET December 2025 E Certificate",
     "category": "answer-key",
     "organization": "NTA",
@@ -1135,7 +1172,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-33",
+    "id": "sarkari-item-34",
     "title": "NTA UGC NET December 2025 E Certificate Download",
     "category": "answer-key",
     "organization": "NTA",
@@ -1168,7 +1205,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-34",
+    "id": "sarkari-item-35",
     "title": "NTA UGC NET December 2024 E Certificate Download",
     "category": "answer-key",
     "organization": "NTA",
@@ -1201,7 +1238,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-35",
+    "id": "sarkari-item-36",
     "title": "CTET February 2026 Certificate Download",
     "category": "important",
     "organization": "CTET",
@@ -1234,7 +1271,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-36",
+    "id": "sarkari-item-37",
     "title": "NTA CSIR NET December 2025 E Certificate",
     "category": "important",
     "organization": "NTA",
@@ -1267,7 +1304,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-37",
+    "id": "sarkari-item-38",
     "title": "NTA UGC NET December 2025 E Certificate Download",
     "category": "important",
     "organization": "NTA",
@@ -1300,7 +1337,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-38",
+    "id": "sarkari-item-39",
     "title": "NTA UGC NET December 2024 E Certificate Download",
     "category": "important",
     "organization": "NTA",
@@ -1333,7 +1370,111 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-39",
+    "id": "sarkari-item-40",
+    "title": "RBI Junior Engineer JE Admit Card 2026",
+    "category": "admit-card",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/bank/rbi-je-2026/",
+    "applyLink": "https://ibpsreg.ibps.in/rbijeapr26/oecla_may26/login.php?appid=078fcdb0496569faba0be501b44b170c",
+    "notificationLink": "https://tinyurl.com/39zdf6u7",
+    "officialWebsite": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+    "tags": [
+      "Government",
+      "Central",
+      "Technical",
+      "Admit Card"
+    ]
+  },
+  {
+    "id": "sarkari-item-41",
+    "title": "UP Police Sub Inspector SI 2025 PET Notice",
+    "category": "admit-card",
+    "organization": "Police",
+    "level": "State",
+    "state": "Uttar Pradesh",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2025/up-police-si-03-2025/",
+    "applyLink": "https://uppbpb.gov.in/FilesUploaded/Notice/SICP-Admit-Cards8bfea044-776e-4fd3-902a-e8c0eebbd606.pdf",
+    "notificationLink": "https://tinyurl.com/2duvbmn2",
+    "officialWebsite": "https://uppbpb.gov.in/",
+    "tags": [
+      "Police",
+      "State",
+      "Uttar Pradesh",
+      "Police"
+    ]
+  },
+  {
+    "id": "sarkari-item-42",
+    "title": "CGPSC SSE State Service Exam 2025 Mains Admit Card",
+    "category": "admit-card",
+    "organization": "Government",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Download Link Active",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/cg/cgpsc-sse-2025/",
+    "applyLink": "https://online.ecgpsconline.in/",
+    "notificationLink": "https://psc.cg.gov.in/pdf/Advertisement/ADV_SSE2025_26112025.PDF",
+    "officialWebsite": "https://www.psc.cg.gov.in/",
+    "tags": [
+      "Government",
+      "Central",
+      "Admit Card"
+    ]
+  },
+  {
+    "id": "sarkari-item-43",
     "title": "UP Polytechnic JEECUP 2026 Admit Card",
     "category": "admit-card",
     "organization": "JEE",
@@ -1368,7 +1509,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-40",
+    "id": "sarkari-item-44",
     "title": "DRDO CEPTAM 11 Tier II Exam Date",
     "category": "admit-card",
     "organization": "DRDO",
@@ -1401,7 +1542,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-41",
+    "id": "sarkari-item-45",
     "title": "UPSSSC Pharmacist New Exam Date 2026",
     "category": "admit-card",
     "organization": "SSC",
@@ -1435,7 +1576,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-42",
+    "id": "sarkari-item-46",
     "title": "CSBC Bihar Police Constable Operator Revised Exam Date 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1470,7 +1611,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-43",
+    "id": "sarkari-item-47",
     "title": "RPSC Senior Teacher TGT 2025 Exam Date",
     "category": "admit-card",
     "organization": "RPSC",
@@ -1505,7 +1646,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-44",
+    "id": "sarkari-item-48",
     "title": "LIC HFL Junior Assistant Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1539,7 +1680,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-45",
+    "id": "sarkari-item-49",
     "title": "All India Bar Exam AIBE 21 Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1573,7 +1714,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-46",
+    "id": "sarkari-item-50",
     "title": "Haryana TET HTET 2026 Exam Date",
     "category": "admit-card",
     "organization": "Government",
@@ -1606,7 +1747,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-47",
+    "id": "sarkari-item-51",
     "title": "BPSSC Havildar Clerk Advt No 01/2026 Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -1641,7 +1782,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-48",
+    "id": "sarkari-item-52",
     "title": "Bihar DCECE Admit Card 2026",
     "category": "admit-card",
     "organization": "Government",
@@ -1676,7 +1817,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-49",
+    "id": "sarkari-item-53",
     "title": "UP TGT 2022 Exam City Details",
     "category": "admit-card",
     "organization": "Government",
@@ -1710,7 +1851,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-50",
+    "id": "sarkari-item-54",
     "title": "CSBC Bihar Police Prohibition Constable, Jail Warder & Mobile Squad Constable Admit Card 2026",
     "category": "admit-card",
     "organization": "Police",
@@ -1746,7 +1887,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-51",
+    "id": "sarkari-item-55",
     "title": "RPSC School Lecturer PGT Teacher 2025 Exam City Details",
     "category": "admit-card",
     "organization": "RPSC",
@@ -1781,7 +1922,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-52",
+    "id": "sarkari-item-56",
     "title": "UPBED 2026 Admit Card",
     "category": "admit-card",
     "organization": "Government",
@@ -1815,7 +1956,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-53",
+    "id": "sarkari-item-57",
     "title": "UPPSC GDC Assistant Professor Admit Card 2026",
     "category": "admit-card",
     "organization": "UPPSC",
@@ -1851,7 +1992,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-54",
+    "id": "sarkari-item-58",
     "title": "Railway RRB Junior Engineer CEN 05/2025 CBT II Exam Date",
     "category": "admit-card",
     "organization": "RRB",
@@ -1885,7 +2026,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-55",
+    "id": "sarkari-item-59",
     "title": "MPESB ASI, Subedar Skill Test Admit Card 2026",
     "category": "admit-card",
     "organization": "MPESB",
@@ -1920,109 +2061,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-56",
-    "title": "MPESB Vanrakshak, Jail Prahari New Exam Date 2026",
-    "category": "admit-card",
-    "organization": "MPESB",
-    "level": "State",
-    "state": "Madhya Pradesh",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/mp/mpesb-vanrakshak-jail-prahari-feb26/",
-    "applyLink": "https://esb.mp.gov.in/e_default.html",
-    "notificationLink": "https://esb.mp.gov.in/Rulebooks/RB_2026/JAIL_VAN_2026_RuleBook_27022026.pdf",
-    "officialWebsite": "https://esb.mp.gov.in/e_default.html",
-    "tags": [
-      "MPESB",
-      "State",
-      "Madhya Pradesh"
-    ]
-  },
-  {
-    "id": "sarkari-item-57",
-    "title": "CSBC Bihar Police Constable Special Branch Exam Date 2026",
-    "category": "admit-card",
-    "organization": "Police",
-    "level": "State",
-    "state": "Bihar",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/bihar/csbc-bihar-constable-special-01-2026/",
-    "applyLink": "http://csbc.bih.nic.in/Default.htm",
-    "notificationLink": "https://csbc.bihar.gov.in/Advt/Advt-01-2026-Special%20Branch%20Constable.pdf",
-    "officialWebsite": "http://csbc.bih.nic.in/Default.htm",
-    "tags": [
-      "Police",
-      "State",
-      "Bihar",
-      "Police"
-    ]
-  },
-  {
-    "id": "sarkari-item-58",
-    "title": "Allahabad High Court HJS 2023 Mains Exam Date",
-    "category": "admit-card",
-    "organization": "Government",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2023/allahabad-hc-hjs-2023/",
-    "applyLink": "https://www.allahabadhighcourt.in/calendar/itemWiseList.jsp?group=7",
-    "notificationLink": "https://apps.allahabadhighcourt.in/hjs/advt_event_18029_14-03-2024.pdf",
-    "officialWebsite": "https://www.allahabadhighcourt.in/calendar/itemWiseList.jsp?group=7",
-    "tags": [
-      "Government",
-      "Central"
-    ]
-  },
-  {
-    "id": "sarkari-item-59",
+    "id": "sarkari-item-60",
     "title": "Indian Army Agniveer CEE Admit Card 2026",
     "category": "admit-card",
     "organization": "Army",
@@ -2056,74 +2095,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-60",
-    "title": "NEET UG 2026 Re Exam Date",
-    "category": "admit-card",
-    "organization": "Government",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2026/nta-neet-ug-2026/",
-    "applyLink": "https://tinyurl.com/547vjuyd",
-    "notificationLink": "https://www.sarkariresult.com/2026/nta-neet-ug-2026/",
-    "officialWebsite": "https://neet.nta.nic.in/",
-    "tags": [
-      "Government",
-      "Central"
-    ]
-  },
-  {
     "id": "sarkari-item-61",
-    "title": "DUVASU Mathura PVT Admit Card 2026",
-    "category": "admit-card",
-    "organization": "Government",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Download Link Active",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2026/duvasu-mathura-pvt-2026/",
-    "applyLink": "https://www.duvasu.com/Login",
-    "notificationLink": "https://doc.sarkariresults.org.in/Mathura_PVT_Prospectus-2026-27Final35.pdf",
-    "officialWebsite": "https://www.upvetuniv.edu.in/",
-    "tags": [
-      "Government",
-      "Central",
-      "Admit Card"
-    ]
-  },
-  {
-    "id": "sarkari-item-62",
     "title": "BSSC Office Attendant 2022 Mains Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -2158,7 +2130,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-63",
+    "id": "sarkari-item-62",
     "title": "RPSC Sub Inspector 2021 Re Exam Date",
     "category": "admit-card",
     "organization": "RPSC",
@@ -2192,7 +2164,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-64",
+    "id": "sarkari-item-63",
     "title": "Railway RRB NTPC UG CEN 07/2025 Admit Card",
     "category": "admit-card",
     "organization": "RRB",
@@ -2226,7 +2198,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-65",
+    "id": "sarkari-item-64",
     "title": "NTA CUET UG 2026 Admit Card",
     "category": "admit-card",
     "organization": "NTA",
@@ -2260,7 +2232,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-66",
+    "id": "sarkari-item-65",
     "title": "SSC GD Constable 2025 Admit Card",
     "category": "admit-card",
     "organization": "SSC",
@@ -2295,7 +2267,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-67",
+    "id": "sarkari-item-66",
     "title": "UPSSSC UP Vidhan Bhawan Guard / Fireman Syllabus 2026",
     "category": "syllabus",
     "organization": "SSC",
@@ -2329,7 +2301,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-68",
+    "id": "sarkari-item-67",
     "title": "MPESB Nursing Officer, Sister Tutor Syllabus 2026",
     "category": "syllabus",
     "organization": "MPESB",
@@ -2363,7 +2335,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-69",
+    "id": "sarkari-item-68",
     "title": "Patna High Court Technical Assistant Syllabus 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2397,7 +2369,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-70",
+    "id": "sarkari-item-69",
     "title": "Jharkhand Teacher Eligibility Test JHTET Syllabus 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2431,7 +2403,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-71",
+    "id": "sarkari-item-70",
     "title": "UPTET 2026 Syllabus",
     "category": "syllabus",
     "organization": "Government",
@@ -2464,7 +2436,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-72",
+    "id": "sarkari-item-71",
     "title": "UP Self Enumeration Online Registration 2026",
     "category": "syllabus",
     "organization": "Government",
@@ -2498,7 +2470,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-73",
+    "id": "sarkari-item-72",
     "title": "NIELIT CCC",
     "category": "syllabus",
     "organization": "Government",
@@ -2531,7 +2503,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-74",
+    "id": "sarkari-item-73",
     "title": "MP CPCT",
     "category": "syllabus",
     "organization": "Government",
@@ -2565,7 +2537,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-75",
+    "id": "sarkari-item-74",
     "title": "MP Rojgar Panjiyan 2025",
     "category": "syllabus",
     "organization": "Government",
@@ -2599,7 +2571,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-76",
+    "id": "sarkari-item-75",
     "title": "UP Scholarship",
     "category": "syllabus",
     "organization": "Government",
@@ -2633,7 +2605,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-77",
+    "id": "sarkari-item-76",
     "title": "SSC OTR",
     "category": "syllabus",
     "organization": "SSC",
@@ -2666,7 +2638,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-78",
+    "id": "sarkari-item-77",
     "title": "UP Self Enumeration Online Registration 2026",
     "category": "important",
     "organization": "Government",
@@ -2700,7 +2672,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-79",
+    "id": "sarkari-item-78",
     "title": "NIELIT CCC",
     "category": "important",
     "organization": "Government",
@@ -2733,7 +2705,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-80",
+    "id": "sarkari-item-79",
     "title": "MP CPCT",
     "category": "important",
     "organization": "Government",
@@ -2767,7 +2739,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-81",
+    "id": "sarkari-item-80",
     "title": "MP Rojgar Panjiyan 2025",
     "category": "important",
     "organization": "Government",
@@ -2801,7 +2773,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-82",
+    "id": "sarkari-item-81",
     "title": "UP Scholarship",
     "category": "important",
     "organization": "Government",
@@ -2835,7 +2807,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-83",
+    "id": "sarkari-item-82",
     "title": "SSC OTR",
     "category": "important",
     "organization": "SSC",
@@ -2865,6 +2837,40 @@ const PORTAL_DATA = [
     "tags": [
       "SSC",
       "Central"
+    ]
+  },
+  {
+    "id": "sarkari-item-83",
+    "title": "RPSC RAS Pre 2026",
+    "category": "latest-job",
+    "organization": "RPSC",
+    "level": "State",
+    "state": "Rajasthan",
+    "dateAdded": "2026-05-21",
+    "lastDate": "2026-06-25",
+    "vacancies": "Various Posts",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "18-35 Years",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "2026-06-25",
+      "feeLast": "2026-06-25",
+      "examTier1": "To be Announced",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/2026/rpsc-ras-2026/",
+    "applyLink": "https://sso.rajasthan.gov.in/signin",
+    "notificationLink": "https://rpsc.rajasthan.gov.in/Static/RecruitmentAdvertisements/76C02A7D61A54708AFFCDD7A2A60DBB2.pdf",
+    "officialWebsite": "https://rpsc.rajasthan.gov.in/advertisements",
+    "tags": [
+      "RPSC",
+      "State",
+      "Rajasthan"
     ]
   },
   {
