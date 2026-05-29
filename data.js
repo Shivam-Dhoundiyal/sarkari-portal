@@ -2,6 +2,111 @@
 const PORTAL_DATA = [
   {
     "id": "sarkari-item-0",
+    "title": "Railway RRB Technician Grade III CEN 02/2025 Post Result 2026",
+    "category": "result",
+    "organization": "RRB",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9500",
+      "sc_st_ph": "\u20b9250",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Class 10th passed with ITI certificate in relevant trade.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/railway/rrb-technician-cen-02-2025/",
+    "applyLink": "https://rrb.digialm.com/EForms/configuredHtml/33128/98138/login.html",
+    "notificationLink": "https://tinyurl.com/3h3jekdz",
+    "officialWebsite": "https://indianrailways.gov.in/",
+    "tags": [
+      "RRB",
+      "Central",
+      "Technical",
+      "Result"
+    ]
+  },
+  {
+    "id": "sarkari-item-1",
+    "title": "Railway RRB Paramedical CEN 03/2025 Post Result 2026",
+    "category": "result",
+    "organization": "RRB",
+    "level": "Central",
+    "state": "All India",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9500",
+      "sc_st_ph": "\u20b9250",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/railway/rrb-paramedical-03-2025/",
+    "applyLink": "https://rrb.digialm.com/EForms/configuredHtml/33128/98076/login.html",
+    "notificationLink": "https://rrbbhopal.gov.in/Final%20CEN%2003_2025%20(English).pdf",
+    "officialWebsite": "https://indianrailways.gov.in/",
+    "tags": [
+      "RRB",
+      "Central",
+      "Result"
+    ]
+  },
+  {
+    "id": "sarkari-item-2",
+    "title": "SSC Delhi Police Head Constable AWO / TPO Result 2026",
+    "category": "result",
+    "organization": "SSC",
+    "level": "State",
+    "state": "Delhi",
+    "dateAdded": "2026-05-21",
+    "lastDate": "N/A",
+    "vacancies": "Declared",
+    "fee": {
+      "gen_obc": "\u20b9100",
+      "sc_st_ph": "\u20b90",
+      "female": "\u20b90"
+    },
+    "ageLimit": "N/A",
+    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
+    "importantDates": {
+      "applyStart": "2026-05-21",
+      "applyLast": "N/A",
+      "feeLast": "N/A",
+      "examTier1": "Held",
+      "resultDate": "Pending"
+    },
+    "detailUrl": "https://www.sarkariresult.com/ssc/ssc-delhi-police-hc-awo-tpo-2025/",
+    "applyLink": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Write_up_DPHCT_2025_CBE.pdf",
+    "notificationLink": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_DPHCT_2025.pdf",
+    "officialWebsite": "https://ssc.gov.in/",
+    "tags": [
+      "SSC",
+      "State",
+      "Delhi",
+      "Police",
+      "Result"
+    ]
+  },
+  {
+    "id": "sarkari-item-3",
     "title": "Rajasthan RSSB REET 2025 Upper Primary, Primary Teacher Result 2026",
     "category": "result",
     "organization": "Government",
@@ -37,7 +142,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-1",
+    "id": "sarkari-item-4",
     "title": "CSBC Bihar Police Constable 2025 Final Result",
     "category": "result",
     "organization": "Police",
@@ -73,7 +178,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-2",
+    "id": "sarkari-item-5",
     "title": "SSC Delhi Police Constable Driver 2025 Marks",
     "category": "result",
     "organization": "SSC",
@@ -108,7 +213,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-3",
+    "id": "sarkari-item-6",
     "title": "UPSSSC UP Pollution Control Board Various Post Eligibility Result 2026",
     "category": "result",
     "organization": "SSC",
@@ -143,7 +248,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-4",
+    "id": "sarkari-item-7",
     "title": "Railway RRB NTPC 10+2 CEN 06/2024 Final Result",
     "category": "result",
     "organization": "RRB",
@@ -177,7 +282,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-5",
+    "id": "sarkari-item-8",
     "title": "DRDO CEPTAM 11 Tier I Result 2026",
     "category": "result",
     "organization": "DRDO",
@@ -211,7 +316,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-6",
+    "id": "sarkari-item-9",
     "title": "BSF Head Constable RO / RM 2025 Result",
     "category": "result",
     "organization": "Government",
@@ -246,7 +351,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-7",
+    "id": "sarkari-item-10",
     "title": "RBI Assistant Pre Result 2026",
     "category": "result",
     "organization": "Government",
@@ -280,7 +385,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-8",
+    "id": "sarkari-item-11",
     "title": "Indian Navy INCET 01/2024 Reserve List / Result",
     "category": "result",
     "organization": "Navy",
@@ -314,7 +419,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-9",
+    "id": "sarkari-item-12",
     "title": "Bihar Board BSEB Class 10th Matric Compartment Result 2026",
     "category": "result",
     "organization": "Government",
@@ -349,7 +454,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-10",
+    "id": "sarkari-item-13",
     "title": "Bihar Board BSEB Class 12th Inter Compartment Result 2026",
     "category": "result",
     "organization": "Government",
@@ -384,7 +489,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-11",
+    "id": "sarkari-item-14",
     "title": "NTA NCHMJEE 2026 Result / Score Card",
     "category": "result",
     "organization": "JEE",
@@ -418,7 +523,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-12",
+    "id": "sarkari-item-15",
     "title": "MPPSC Pre 2026 Result",
     "category": "result",
     "organization": "Government",
@@ -453,7 +558,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-13",
+    "id": "sarkari-item-16",
     "title": "RPSC Sub Inspector Telecom 2024 PET Result",
     "category": "result",
     "organization": "RPSC",
@@ -488,7 +593,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-14",
+    "id": "sarkari-item-17",
     "title": "Railway RRB Technician Grade I Result CEN 02/2025",
     "category": "result",
     "organization": "RRB",
@@ -523,7 +628,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-15",
+    "id": "sarkari-item-18",
     "title": "UPSC Exam Calendar 2027",
     "category": "result",
     "organization": "UPSC",
@@ -556,7 +661,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-16",
+    "id": "sarkari-item-19",
     "title": "DSSSB PGT Sanskrit Result 2026",
     "category": "result",
     "organization": "DSSSB",
@@ -591,7 +696,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-17",
+    "id": "sarkari-item-20",
     "title": "MPESB MP Police SI Phase II Mains Result 2026",
     "category": "result",
     "organization": "MPESB",
@@ -627,7 +732,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-18",
+    "id": "sarkari-item-21",
     "title": "UPSSSC Pharmacist Eligibility Result 2026",
     "category": "result",
     "organization": "SSC",
@@ -662,7 +767,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-19",
+    "id": "sarkari-item-22",
     "title": "MHA IB ACIO Tech 2025 Final Result",
     "category": "result",
     "organization": "Government",
@@ -696,7 +801,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-20",
+    "id": "sarkari-item-23",
     "title": "UPPSC LT Grade Assistant Teacher Computer Result 2026",
     "category": "result",
     "organization": "UPPSC",
@@ -732,7 +837,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-21",
+    "id": "sarkari-item-24",
     "title": "Rajasthan High Court Chauffeur, Driver Result 2026",
     "category": "result",
     "organization": "Government",
@@ -767,7 +872,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-22",
+    "id": "sarkari-item-25",
     "title": "RSSB Stenographer 2024 Typing Test Result",
     "category": "result",
     "organization": "Government",
@@ -802,7 +907,7 @@ const PORTAL_DATA = [
     ]
   },
   {
-    "id": "sarkari-item-23",
+    "id": "sarkari-item-26",
     "title": "NTA NTET Result 2026",
     "category": "result",
     "organization": "NTA",
@@ -831,109 +936,6 @@ const PORTAL_DATA = [
     "officialWebsite": "https://exams.nta.nic.in/ntet/",
     "tags": [
       "NTA",
-      "Central",
-      "Result"
-    ]
-  },
-  {
-    "id": "sarkari-item-24",
-    "title": "CBSE Group A, B, C Tier II Exam Result 2026",
-    "category": "result",
-    "organization": "CBSE",
-    "level": "State",
-    "state": "Uttar Pradesh",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Declared",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/2025/cbse-group-abc-2025/",
-    "applyLink": "https://www.cbse.gov.in/cbsenew/documents/Result_Notice_DRQ2026_02032026.pdf",
-    "notificationLink": "https://www.cbse.gov.in/cbsenew/documents/Detailed_Advertisement_Direct_Recruitment_02122025.pdf",
-    "officialWebsite": "https://www.cbse.gov.in/cbsenew/cbse.html",
-    "tags": [
-      "CBSE",
-      "State",
-      "Uttar Pradesh",
-      "Result"
-    ]
-  },
-  {
-    "id": "sarkari-item-25",
-    "title": "SSC CGL 2025 Final Result",
-    "category": "result",
-    "organization": "SSC",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Declared",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Bachelor's Degree in any discipline from a recognized University in India.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://www.sarkariresult.com/ssc/ssc-cgl-2025/",
-    "applyLink": "https://ssc.gov.in/api/attachment/uploads/masterData/Results/cgle_LIST-1_08042026.pdf",
-    "notificationLink": "https://doc.sarkariresults.org.in/SarkariResult.Com_SSC_CGL_Notice_of_adv_cgl_2025.pdf",
-    "officialWebsite": "https://ssc.gov.in/",
-    "tags": [
-      "SSC",
-      "Central",
-      "Result"
-    ]
-  },
-  {
-    "id": "sarkari-item-26",
-    "title": "Haryana Board HBSE Class 10th Result 2026",
-    "category": "result",
-    "organization": "Government",
-    "level": "Central",
-    "state": "All India",
-    "dateAdded": "2026-05-21",
-    "lastDate": "N/A",
-    "vacancies": "Declared",
-    "fee": {
-      "gen_obc": "\u20b9100",
-      "sc_st_ph": "\u20b90",
-      "female": "\u20b90"
-    },
-    "ageLimit": "N/A",
-    "eligibility": "Candidates must check the official PDF notification details for exact educational qualification and physical standards.",
-    "importantDates": {
-      "applyStart": "2026-05-21",
-      "applyLast": "N/A",
-      "feeLast": "N/A",
-      "examTier1": "Held",
-      "resultDate": "Pending"
-    },
-    "detailUrl": "https://result.bsehexam2017.in/delta-xmarch/MainResult.aspx",
-    "applyLink": "https://result.bsehexam2017.in/delta-xmarch/MainResult.aspx",
-    "notificationLink": "https://result.bsehexam2017.in/delta-xmarch/MainResult.aspx",
-    "officialWebsite": "https://result.bsehexam2017.in/delta-xmarch/MainResult.aspx",
-    "tags": [
-      "Government",
       "Central",
       "Result"
     ]
